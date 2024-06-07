@@ -3,12 +3,13 @@
 ## Table of Contents
 
 1. [Introduction to Python](#introduction-to-python)
-2. [Variables and Data Types](#variables-and-data-types)
-3. [Operators](#operators)
-4. [Control Flow](#control-flow)
-5. [Functions](#functions)
-6. [Lists, Tuples, and Dictionaries](#lists-tuples-and-dictionaries)
-7. [Modules and Packages](#modules-and-packages)
+2. [Variables ](#variables)
+3. [Data Types](#data-types)
+4. [Operators](#operators)
+5. [Control Flow](#control-flow)
+6. [Functions](#functions)
+7. [Lists, Tuples, and Dictionaries](#lists-tuples-and-dictionaries)
+8. [Modules and Packages](#modules-and-packages)
 
 ## Introduction to Python
 
@@ -50,3 +51,92 @@ def my_function():
 
 ## Data Types
 
+## Operators
+
+Operators are special symbols in Python that carry out arithmetic or logical computation. Here are the different types of operators in Python:
+
+### Arithmetic Operators
+
+Arithmetic operators are used to perform mathematical operations.
+
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+- Modulus (`%`)
+- Exponentiation (`**`)
+- Floor division (`//`)
+
+### Comparison Operators
+
+Comparison operators are used to compare values. They return either True or False.
+
+- Equal to (`==`)
+- Not equal to (`!=`)
+- Greater than (`>`)
+- Less than (`<`)
+- Greater than or equal to (`>=`)
+- Less than or equal to (`<=`)
+
+### Logical Operators
+
+Logical operators are used to combine conditional statements.
+
+- AND (`and`)
+- OR (`or`)
+- NOT (`not`)
+
+### Assignment Operators
+
+Assignment operators are used to assign values to variables.
+
+- Assign (`=`)
+- Add and assign (`+=`)
+- Subtract and assign (`-=`)
+- Multiply and assign (`*=``)
+- Divide and assign (`/=``)
+- Modulus and assign (`%=``)
+- Exponentiate and assign (`**=``)
+- Floor divide and assign (`//=``)
+
+### Bitwise Operators
+
+Bitwise operators act on operands as if they were strings of binary digits.
+
+- Bitwise AND (`&`)
+- Bitwise OR (`|`)
+- Bitwise XOR (`^`)
+- Bitwise NOT (`~`)
+- Left shift (`<<`)
+- Right shift (`>>`)
+
+### Membership Operators
+
+Membership operators are used to test if a sequence is present in an object.
+
+- `in`: Returns True if a sequence is present in the object.
+- `not in`: Returns True if a sequence is not present in the object.
+
+### Identity Operators
+
+Identity operators compare the memory locations of two objects.
+
+- `is`: Returns True if both variables point to the same object.
+- `is not`: Returns True if both variables do not point to the same object.
+
+## Control Flow in Python
+
+Control flow statements in Python allow you to control the execution flow of your program based on certain conditions. Here are the main control flow constructs in Python:
+
+### Conditional Statements
+
+Conditional statements allow you to execute different blocks of code based on whether a condition is true or false.
+
+### If Statement
+
+The `if` statement is used to execute a block of code if a condition is true.
+
+```python
+x = 10
+if x > 5:
+    print("x is greater than 5")
