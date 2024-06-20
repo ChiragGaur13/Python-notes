@@ -22,7 +22,7 @@
    
     b. [Comparison Operators](#comparison-operators)
    
-    c. [Logical Operators](logical-operators)
+    c. [Logical Operators](#logical-operators)
    
     d. [Assignment Operators](#assignment-operators)
    
@@ -517,7 +517,7 @@ def add(a, b):
     return a + b
 ```
 
-###Importing a Module
+### Importing a Module
 You can import the functions, classes, or variables from a module using the import statement.
 
 ```python
