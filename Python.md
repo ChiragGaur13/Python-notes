@@ -211,7 +211,7 @@ Tuple are enclosed within Parenthesis().
 
 Operators are special symbols in Python that carry out arithmetic or logical computation. Here are the different types of operators in Python:
 
-###Arithmetic Operators
+### Arithmetic Operators
 
 - **Addition (`+`)**: Adds two operands.
   ```python
