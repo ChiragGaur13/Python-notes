@@ -51,6 +51,136 @@ def my_function():
 
 ## Data Types
 
+Python has various standard datatypes that can be classified into mutable and immutable datatypes. Mutable datatypes can be changed after their creation, while immutable datatypes cannot be changed once they are created.
+
+## Mutable Datatypes
+
+### 1) List
+
+A list is an ordered collection of items which can be of any type.
+
+Lists are enclosed with square brackets.
+
+#### Syntax
+
+    ```python
+    my_list = [1, 2, 3, "apple", "banana"]
+
+    my_list = [1, 2, 3]
+    print(my_list)  # Output: [1, 2, 3]
+
+    # Changing an element
+    my_list[1] = 20
+    print(my_list)  # Output: [1, 20, 3]
+
+    # Adding an element
+    my_list.append(4)
+    print(my_list)  # Output: [1, 20, 3, 4]
+    ```
+### Dictionary
+
+A dictionary is an unordered collection of key-value pairs. 
+Each key is seprated by a colon(:).
+
+Dictionary are enclosed with curly braces.
+
+
+#### Syntax
+
+```python
+my_dict = {"name": "Alice", "age": 25}
+print(my_dict)  # Output: {'name': 'Alice', 'age': 25}
+
+# Changing a value
+my_dict["age"] = 30
+print(my_dict)  # Output: {'name': 'Alice', 'age': 30}
+
+# Adding a key-value pair
+my_dict["city"] = "New York"
+print(my_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}
+```
+
+### Set
+
+A set is an unordered collection of unique items. Sets are mutable.
+
+Sets are enclosed with curly braces.
+
+
+#### Syntax
+
+```python
+my_set = {1, 2, 3}
+print(my_set)  # Output: {1, 2, 3}
+
+# Adding an element
+my_set.add(4)
+print(my_set)  # Output: {1, 2, 3, 4}
+
+# Removing an element
+my_set.remove(2)
+print(my_set)  # Output: {1, 3, 4}
+```
+
+## Immutable Datatypes
+
+### Numbers/Numeric
+
+Numbers in Python (integers, floats, complex numbers) are immutable.
+
+#### Syntax
+
+```python
+x = 10
+print(x)  # Output: 10
+
+# Numbers are immutable, so operations create new numbers
+y = x + 5
+print(y)  # Output: 15
+print(x)  # Output: 10  (x is unchanged)
+```
+
+
+### String
+
+A string is a sequence of characters within quatation. 
+
+#### Syntax
+
+```python
+my_string = "Hello, World!"
+print(my_string)  # Output: Hello, World!
+
+# Strings are immutable, so you cannot change a character directly
+# my_string[0] = "h"  # This will raise an error
+
+# But you can create a new string based on modifications
+new_string = "h" + my_string[1:]
+print(new_string)  # Output: hello, World!
+```
+
+### Tuple
+
+A tuple is an ordered collection of items which can be of any type. 
+
+Tuple are enclosed within Parenthesis().
+
+
+#### Syntax
+
+    ```python
+    my_tuple = (1, 2, 3)
+    print(my_tuple)  # Output: (1, 2, 3)
+    
+    # Tuples are immutable, so you cannot change an element directly
+    # my_tuple[1] = 20  # This will raise an error
+    
+    # But you can create a new tuple based on modifications
+    new_tuple = my_tuple[:1] + (20,) + my_tuple[2:]
+    print(new_tuple)  # Output: (1, 20, 3)
+    ```
+
+
 ## Operators
 
 Operators are special symbols in Python that carry out arithmetic or logical computation. Here are the different types of operators in Python:
@@ -249,7 +379,6 @@ Conditional statements allow you to execute different blocks of code based on wh
 
 The `if` statement is used to execute a block of code if a condition is true.
 
-    ```python
     x = 10
     if x > 5:
         print("x is greater than 5")
@@ -257,13 +386,14 @@ The `if` statement is used to execute a block of code if a condition is true.
 
 ### Else Statment 
 The else statement is used to execute a block of code if the condition in the if statement is false.
-    ```python
-    if condition:
-        # code block to be executed if condition is true
-    else:
-        # code block to be executed if condition is false
 
-    ```python
+```python
+if condition:
+    # code block to be executed if condition is true
+else:
+    # code block to be executed if condition is false
+```
+
     x = 3
     if x > 5:
         print("x is greater than 5")
@@ -274,15 +404,15 @@ The else statement is used to execute a block of code if the condition in the if
 ### Elif Statment 
 The elif (short for else if) statement is used to check multiple conditions.
 
-    ```python
-    if condition1:
-        # code block to be executed if condition1 is true
-    elif condition2:
-        # code block to be executed if condition2 is true
-    else:
-        # code block to be executed if all conditions are false
+```python
+if condition1:
+    # code block to be executed if condition1 is true
+elif condition2:
+    # code block to be executed if condition2 is true
+else:
+    # code block to be executed if all conditions are false
+```
 
-    ```python
     x = 5
     if x > 5:
         print("x is greater than 5")
@@ -291,3 +421,5 @@ The elif (short for else if) statement is used to check multiple conditions.
     else:
         print("x is less than 5")
     # Output: x is equal to 5
+
+
