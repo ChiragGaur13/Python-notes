@@ -308,16 +308,16 @@ Assignment operators are used to assign values to variables.
     x -= 2
     print(x)  # Output: 6
 
-- **Multiply and assign (`*=``)**: 
+- **Multiply and assign (`*=`)**: 
     ```python
     x *= 2
     print(x)  # Output: 12
-- **Divide and assign (`/=``)**: 
+- **Divide and assign (`/=`)**: 
     ```python
     x /= 3
     print(x)  # Output: 4.0
 
-- **Modulus and assign (`%=``)**: 
+- **Modulus and assign (`%=`)**: 
     ```python
     x %= 3
     print(x)  # Output: 1.0
@@ -327,7 +327,7 @@ Assignment operators are used to assign values to variables.
     x **= 2
     print(x)  # Output: 1.0
 
-- **Floor divide and assign (`//=``)**: 
+- **Floor divide and assign (`//=`)**: 
     ```python
     x //= 2
     print(x)  # Output: 0.0
