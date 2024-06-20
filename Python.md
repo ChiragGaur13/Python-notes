@@ -9,14 +9,14 @@
 3. [Data Types](#data-types)
 
    a. [Mutable Datatypes](#mutable-datatypes)
-        - **[List](#list)**
-        - **[Dictionary](#dictionary)**
-        - **[Set](#Set)**
+        - [List](#list)
+        - [Dictionary](#dictionary)
+        - [Set](#Set)
 
    b. [Immutable Datatypes](#immutable-datatypes)
-        - **[Numbers/Numeric](#numbers/numeric)**
-        - **[String](#string)**
-        - **[Tuple](#tuple)**
+        - [Numbers/Numeric](#numbers/numeric)
+        - [String](#string)
+        - [Tuple](#tuple)
 
 4. [Operators](#operators)
    
