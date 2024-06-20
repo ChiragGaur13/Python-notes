@@ -322,7 +322,7 @@ Assignment operators are used to assign values to variables.
     x %= 3
     print(x)  # Output: 1.0
 
-- **Exponentiate and assign (`**=``)**: 
+- **Exponentiate and assign (`**=`)**: 
     ```python
     x **= 2
     print(x)  # Output: 1.0
