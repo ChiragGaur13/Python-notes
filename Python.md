@@ -16,7 +16,8 @@
         - **[String](#string)**
         - **[Tuple](#tuple)**
 
-5. [Operators](#operators)
+4. [Operators](#operators)
+   
     a. [Arithmetic Operators](#arithmetic-operators)
    
     b. [Comparison Operators](#comparison-operators)
@@ -31,10 +32,10 @@
    
     g. [Identity Operators](#identity-operators)
    
-7. [Control Flow](#control-flow)
-8. [Loops](#loops)
-9. [Functions](#functions)
-10. [Modules and Packages](#modules-and-packages)
+5. [Control Flow](#control-flow)
+6. [Loops](#loops)
+7. [Functions](#functions)
+8. [Modules and Packages](#modules-and-packages)
 
 ## Introduction to Python
 
