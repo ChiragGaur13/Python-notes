@@ -85,7 +85,7 @@ Lists are enclosed with square brackets.
 
 #### Syntax
 
-    ```python
+   ```python
     my_list = [1, 2, 3, "apple", "banana"]
 
     my_list = [1, 2, 3]
@@ -98,7 +98,7 @@ Lists are enclosed with square brackets.
     # Adding an element
     my_list.append(4)
     print(my_list)  # Output: [1, 20, 3, 4]
-    ```
+   ```
 ### 2) Dictionary
 
 A dictionary is an unordered collection of key-value pairs. 
@@ -190,7 +190,7 @@ Tuple are enclosed within Parenthesis().
 
 #### Syntax
 
-    ```python
+   ```python
     my_tuple = (1, 2, 3)
     print(my_tuple)  # Output: (1, 2, 3)
     
@@ -200,7 +200,7 @@ Tuple are enclosed within Parenthesis().
     # But you can create a new tuple based on modifications
     new_tuple = my_tuple[:1] + (20,) + my_tuple[2:]
     print(new_tuple)  # Output: (1, 20, 3)
-    ```
+   ```
 
 
 ## Operators
@@ -399,10 +399,12 @@ Conditional statements allow you to execute different blocks of code based on wh
 
 The `if` statement is used to execute a block of code if a condition is true.
 
+   ```python
     x = 10
     if x > 5:
         print("x is greater than 5")
     # Output: x is greater than 5
+   ```
 
 ### Else Statment 
 The else statement is used to execute a block of code if the condition in the if statement is false.
@@ -413,13 +415,14 @@ if condition:
 else:
     # code block to be executed if condition is false
 ```
-
+   ```python
     x = 3
     if x > 5:
         print("x is greater than 5")
     else:
         print("x is not greater than 5")
     # Output: x is not greater than 5
+   ```
 
 ### Elif Statment 
 The elif (short for else if) statement is used to check multiple conditions.
@@ -432,7 +435,7 @@ elif condition2:
 else:
     # code block to be executed if all conditions are false
 ```
-
+   ```python
     x = 5
     if x > 5:
         print("x is greater than 5")
@@ -441,6 +444,7 @@ else:
     else:
         print("x is less than 5")
     # Output: x is equal to 5
+```
 
 
 # Loops
