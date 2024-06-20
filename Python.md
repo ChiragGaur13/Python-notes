@@ -6,12 +6,12 @@
 2. [Variables ](#variables)
 3. [Data Types](#data-types)
 
-   a. [Mutable Datatypes](#mutable-daatatypes)
+   a. [Mutable Datatypes](#mutable-datatypes)
         - **[List](#list)**
         - **[Dictionary](#dictionary)**
         - **[Set](#Set)**
 
-   b. [Immutable Datatypes](#immutable-daatatypes)
+   b. [Immutable Datatypes](#immutable-datatypes)
         - **[Numbers/Numeric](#numbers/numeric)**
         - **[String](#string)**
         - **[Tuple](#tuple)**
@@ -35,7 +35,7 @@
 5. [Control Flow](#control-flow)
 6. [Loops](#loops)
 7. [Functions](#functions)
-8. [Modules and Packages](#modules-and-packages)
+8. [Modules](#modules)
 
 ## Introduction to Python
 
@@ -210,6 +210,8 @@ Tuple are enclosed within Parenthesis().
 ## Operators
 
 Operators are special symbols in Python that carry out arithmetic or logical computation. Here are the different types of operators in Python:
+
+###Arithmetic Operators
 
 - **Addition (`+`)**: Adds two operands.
   ```python
@@ -495,4 +497,30 @@ while i < 6:
 - **Continue Statment**: The continue statement is used to skip the current iteration of the loop and continue with the next iteration.
 
 - **Pass Statment**: The pass statement is a null operation; it is used when a statement is required syntactically but you do not want any command or code to execute.
-    
+
+
+## Modules
+
+A module is a file containing Python definitions and statements. The file name is the module name with the suffix `.py`.
+
+### Creating a Module
+
+To create a module, simply save the code you want in a file with a `.py` extension.
+
+#### Example: `mymodule.py`
+
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+def add(a, b):
+    return a + b
+```
+
+###Importing a Module
+You can import the functions, classes, or variables from a module using the import statement.
+
+```python
+import module_name
+```
+
