@@ -524,6 +524,7 @@ print(greet("Alice"))  # Output: Hello, Alice!
 Functions can take arguments, which are values passed to the function.
 
 - **Positional Arguments**:
+  
 Positional arguments are the most common type of arguments. The values passed to the function are assigned to the parameters in order.
 
 ```python
@@ -534,6 +535,7 @@ print(add(2, 3))  # Output: 5
 ```
 
 - **Keyword Arguments**:
+  
 Keyword arguments are passed to the function with their parameter names.
 
 ```python
@@ -545,6 +547,7 @@ print(greet(name="Alice", message="Good morning"))  # Output: Good morning, Alic
 ```
 
 - **Default Arguments**:
+  
 Default arguments are specified in the function definition and are used if no value is passed for that parameter.
 
 ```python
