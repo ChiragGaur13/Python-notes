@@ -10,16 +10,19 @@
 
    a. [Mutable Datatypes](#mutable-datatypes)
    
-        - [List](#list)
+      - [List](#list)
+     
+      - [Dictionary](#dictionary)
    
-        - [Dictionary](#dictionary)
-   
-        - [Set](#Set)
+      - [Set](#Set)
 
    b. [Immutable Datatypes](#immutable-datatypes)
-        - [Numbers/Numeric](#numbers/numeric)
-        - [String](#string)
-        - [Tuple](#tuple)
+   
+      - [Numbers/Numeric](#numbers/numeric)
+     
+      - [String](#string)
+     
+      - [Tuple](#tuple)
 
 5. [Operators](#operators)
    
