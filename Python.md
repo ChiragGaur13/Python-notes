@@ -9,8 +9,11 @@
 3. [Data Types](#data-types)
 
    a. [Mutable Datatypes](#mutable-datatypes)
+   
         - [List](#list)
+   
         - [Dictionary](#dictionary)
+   
         - [Set](#Set)
 
    b. [Immutable Datatypes](#immutable-datatypes)
@@ -18,7 +21,7 @@
         - [String](#string)
         - [Tuple](#tuple)
 
-4. [Operators](#operators)
+5. [Operators](#operators)
    
     a. [Arithmetic Operators](#arithmetic-operators)
    
@@ -34,10 +37,10 @@
    
     g. [Identity Operators](#identity-operators)
    
-5. [Conditional Statements](#conditional-statements)
-6. [Loops](#loops)
-7. [Functions](#functions)
-8. [Modules](#modules)
+6. [Conditional Statements](#conditional-statements)
+7. [Loops](#loops)
+8. [Functions](#functions)
+9. [Modules](#modules)
 
 ## Introduction to Python
 
