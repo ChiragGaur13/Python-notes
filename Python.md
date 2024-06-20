@@ -5,11 +5,36 @@
 1. [Introduction to Python](#introduction-to-python)
 2. [Variables ](#variables)
 3. [Data Types](#data-types)
-4. [Operators](#operators)
-5. [Control Flow](#control-flow)
-6. [Functions](#functions)
-7. [Lists, Tuples, and Dictionaries](#lists-tuples-and-dictionaries)
-8. [Modules and Packages](#modules-and-packages)
+
+   a. [Mutable Datatypes](#mutable-daatatypes)
+        - **[List](#list)**
+        - **[Dictionary](#dictionary)**
+        - **[Set](#Set)**
+
+   b. [Immutable Datatypes](#immutable-daatatypes)
+        - **[Numbers/Numeric](#numbers/numeric)**
+        - **[String](#string)**
+        - **[Tuple](#tuple)**
+
+5. [Operators](#operators)
+    a. [Arithmetic Operators](#arithmetic-operators)
+   
+    b. [Comparison Operators](#comparison-operators)
+   
+    c. [Logical Operators](logical-operators)
+   
+    d. [Assignment Operators](#assignment-operators)
+   
+    e. [Bitwise Operators](#bitwise-operators)
+   
+    f. [Membership Operators](#membership-operators)
+   
+    g. [Identity Operators](#identity-operators)
+   
+7. [Control Flow](#control-flow)
+8. [Loops](#loops)
+9. [Functions](#functions)
+10. [Modules and Packages](#modules-and-packages)
 
 ## Introduction to Python
 
@@ -77,7 +102,7 @@ Lists are enclosed with square brackets.
     my_list.append(4)
     print(my_list)  # Output: [1, 20, 3, 4]
     ```
-### Dictionary
+### 2) Dictionary
 
 A dictionary is an unordered collection of key-value pairs. 
 Each key is seprated by a colon(:).
@@ -100,7 +125,7 @@ my_dict["city"] = "New York"
 print(my_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}
 ```
 
-### Set
+### 3) Set
 
 A set is an unordered collection of unique items. Sets are mutable.
 
@@ -124,7 +149,7 @@ print(my_set)  # Output: {1, 3, 4}
 
 ## Immutable Datatypes
 
-### Numbers/Numeric
+### 1) Numbers/Numeric
 
 Numbers in Python (integers, floats, complex numbers) are immutable.
 
@@ -141,7 +166,7 @@ print(x)  # Output: 10  (x is unchanged)
 ```
 
 
-### String
+### 2) String
 
 A string is a sequence of characters within quatation. 
 
@@ -159,7 +184,7 @@ new_string = "h" + my_string[1:]
 print(new_string)  # Output: hello, World!
 ```
 
-### Tuple
+### 3) Tuple
 
 A tuple is an ordered collection of items which can be of any type. 
 
@@ -367,7 +392,7 @@ Identity operators compare the memory locations of two objects.
     print(x is not z)  # Output: True
 
 
-## Control Flow in Python
+## Control Flow
 
 Control flow statements in Python allow you to control the execution flow of your program based on certain conditions. Here are the main control flow constructs in Python:
 
@@ -423,3 +448,50 @@ else:
     # Output: x is equal to 5
 
 
+# Loops
+
+Loops are used to execute a block of code repeatedly. Python provides two types of loops: `for` and `while`.
+
+## For Loop
+
+The `for` loop is used to iterate over a sequence (such as a list, tuple, dictionary, set, or string) or other iterable objects.
+
+### Syntax
+
+```python
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+print(fruit)
+# Output:
+# apple
+# banana
+# cherry
+```
+
+## While Loop
+
+The while loop is used to execute a block of code as long as a condition is true.
+
+### Syntax
+
+```python
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+# Output:
+# 1
+# 2
+# 3
+# 4
+# 5
+```
+
+### Loop control Statment
+
+- **Break Statment**:The break statement is used to exit the loop prematurely when a certain condition is met.
+
+- **Continue Statment**: The continue statement is used to skip the current iteration of the loop and continue with the next iteration.
+
+- **Pass Statment**: The pass statement is a null operation; it is used when a statement is required syntactically but you do not want any command or code to execute.
+    
