@@ -1,5 +1,7 @@
 # Python
 
+
+
 ## Table of Contents
 
 1. [Introduction to Python](#introduction-to-python)
@@ -32,7 +34,7 @@
    
     g. [Identity Operators](#identity-operators)
    
-5. [Control Flow](#control-flow)
+5. [Conditional Statements](#conditional-statements)
 6. [Loops](#loops)
 7. [Functions](#functions)
 8. [Modules](#modules)
@@ -211,7 +213,7 @@ Tuple are enclosed within Parenthesis().
 
 Operators are special symbols in Python that carry out arithmetic or logical computation. Here are the different types of operators in Python:
 
-### Arithmetic Operators
+### a) Arithmetic Operators
 
 - **Addition (`+`)**: Adds two operands.
   ```python
@@ -244,7 +246,7 @@ Operators are special symbols in Python that carry out arithmetic or logical com
    ```python
     print(x // y)  # Output: 2
 
-### Comparison Operators
+### b) Comparison Operators
 
 Comparison operators are used to compare values. They return either True or False.
 
@@ -275,7 +277,7 @@ Comparison operators are used to compare values. They return either True or Fals
    ```python
    print(x <= y)  # Output: False
 
-### Logical Operators
+### c) Logical Operators
 
 Logical operators are used to combine conditional statements.
 
@@ -293,7 +295,7 @@ Logical operators are used to combine conditional statements.
    ```python
    print(not a)  # Output: False
 
-### Assignment Operators
+### d) Assignment Operators
 
 Assignment operators are used to assign values to variables.
 
@@ -336,7 +338,7 @@ Assignment operators are used to assign values to variables.
     x //= 2
     print(x)  # Output: 0.0
 
-### Bitwise Operators
+### e) Bitwise Operators
 
 Bitwise operators act on operands as if they were strings of binary digits.
 
@@ -366,7 +368,7 @@ Bitwise operators act on operands as if they were strings of binary digits.
     ```python
     print(a >> 2)  # Output: 2 (10 in binary)
 
-### Membership Operators
+### f) Membership Operators
 
 Membership operators are used to test if a sequence is present in an object.
 
@@ -379,7 +381,7 @@ Membership operators are used to test if a sequence is present in an object.
     ```python
     print("grape" not in fruits)  # Output: True
 
-### Identity Operators
+### i) Identity Operators
 
 Identity operators compare the memory locations of two objects.
 
@@ -395,11 +397,7 @@ Identity operators compare the memory locations of two objects.
     print(x is not z)  # Output: True
 
 
-## Control Flow
-
-Control flow statements in Python allow you to control the execution flow of your program based on certain conditions. Here are the main control flow constructs in Python:
-
-### Conditional Statements
+## Conditional Statements
 
 Conditional statements allow you to execute different blocks of code based on whether a condition is true or false.
 
@@ -525,7 +523,7 @@ print(greet("Alice"))  # Output: Hello, Alice!
 ## Function Arguments
 Functions can take arguments, which are values passed to the function.
 
-### Positional Arguments
+- **Positional Arguments**:
 Positional arguments are the most common type of arguments. The values passed to the function are assigned to the parameters in order.
 
 ```python
@@ -535,7 +533,7 @@ def add(a, b):
 print(add(2, 3))  # Output: 5
 ```
 
-### Keyword Arguments
+- **Keyword Arguments**:
 Keyword arguments are passed to the function with their parameter names.
 
 ```python
@@ -546,7 +544,7 @@ print(greet(name="Alice", message="Good morning"))  # Output: Good morning, Alic
 
 ```
 
-### Default Arguments
+- **Default Arguments**:
 Default arguments are specified in the function definition and are used if no value is passed for that parameter.
 
 ```python
