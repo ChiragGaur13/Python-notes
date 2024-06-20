@@ -499,6 +499,65 @@ while i < 6:
 - **Pass Statment**: The pass statement is a null operation; it is used when a statement is required syntactically but you do not want any command or code to execute.
 
 
+# Functions
+
+Functions are reusable blocks of code that perform a specific task. Functions help in modularizing code and improving code readability.
+
+## Defining a Function
+
+A function is defined using the `def` keyword, followed by the function name and parentheses `()`.
+
+### Syntax
+
+```python
+def function_name(parameters):
+    # code block
+    return value
+```
+
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))  # Output: Hello, Alice!
+```
+
+## Function Arguments
+Functions can take arguments, which are values passed to the function.
+
+### Positional Arguments
+Positional arguments are the most common type of arguments. The values passed to the function are assigned to the parameters in order.
+
+```python
+def add(a, b):
+    return a + b
+
+print(add(2, 3))  # Output: 5
+```
+
+### Keyword Arguments
+Keyword arguments are passed to the function with their parameter names.
+
+```python
+def greet(name, message):
+    return f"{message}, {name}!"
+
+print(greet(name="Alice", message="Good morning"))  # Output: Good morning, Alice!
+
+```
+
+### Default Arguments
+Default arguments are specified in the function definition and are used if no value is passed for that parameter.
+
+```python
+def greet(name, message="Hello"):
+    return f"{message}, {name}!"
+
+print(greet("Alice"))           # Output: Hello, Alice!
+print(greet("Bob", "Hi"))       # Output: Hi, Bob!
+```
+
+
 ## Modules
 
 A module is a file containing Python definitions and statements. The file name is the module name with the suffix `.py`.
