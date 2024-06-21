@@ -12,7 +12,7 @@
 
    b. [Immutable Datatypes](#immutable-datatypes)
 
-5. [Operators](#operators)
+4. [Operators](#operators)
    
     a. [Arithmetic Operators](#arithmetic-operators)
    
@@ -28,10 +28,12 @@
    
     g. [Identity Operators](#identity-operators)
    
-6. [Conditional Statements](#conditional-statements)
-7. [Loops](#loops)
-8. [Functions](#functions)
-9. [Modules](#modules)
+5. [Conditional Statements](#conditional-statements)
+6. [Loops](#loops)
+7. [Functions](#functions)
+8. [Modules](#modules)
+9. [Refrences](#refrences)
+10. [Conclusion](#conclusion)
 
 ## Introduction to Python
 
@@ -582,3 +584,11 @@ You can import the functions, classes, or variables from a module using the impo
 import module_name
 ```
 
+
+## Refrences
+https://www.python.org/doc/
+https://www.w3schools.com/python/
+https://www.geeksforgeeks.org/python-programming-language-tutorial/
+
+## Conclusion
+Python is a versatile and powerful programming language known for its simplicity and readability. This document has provided an overview of fundamental Python concepts, including variables, data types, operators, conditional statements, loops, functions, and modules. By understanding these foundational elements, you are ready to begin your journey into Python programming. Remember, practice makes perfect! Explore Python further to unlock its full potential for tasks like scripting, web development, and more.
