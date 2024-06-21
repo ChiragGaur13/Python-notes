@@ -377,7 +377,7 @@ Membership operators are used to test if a sequence is present in an object.
     ```python
     print("grape" not in fruits)  # Output: True
 
-### i) Identity Operators
+### g) Identity Operators
 
 Identity operators compare the memory locations of two objects.
 
