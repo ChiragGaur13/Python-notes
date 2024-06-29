@@ -338,29 +338,29 @@ Assignment operators are used to assign values to variables.
 
 Bitwise operators act on operands as if they were strings of binary digits.
 
-- **Bitwise AND (`&`)**: 
+- **Bitwise AND (`&`)**: Result bit 1, if both operand bits are 1; otherwise results bit 0.
     ```python
     a = 10  # 1010 in binary
     b = 4   # 0100 in binary
     print(a & b)  # Output: 0 (0000 in binary)
 
-- **Bitwise OR (`|`)**: 
+- **Bitwise OR (`|`)**: Result bit 1, if any of the operand bit is 1; otherwise results bit 0.
     ```python
     print(a | b)  # Output: 14 (1110 in binary)
 
-- **Bitwise XOR (`^`)**: 
+- **Bitwise XOR (`^`)**: Result bit 1, if any of the operand bit is 1 but not both, otherwise results bit 0.
     ```python
     print(a ^ b)  # Output: 14 (1110 in binary)
 
-- **Bitwise NOT (`~`)**: 
+- **Bitwise NOT (`~`)**: Inverts individual bits.
     ```python
     print(~a)  # Output: -11 (Inverts all the bits)
 
-- **Left shift (`<<`)**: 
+- **Left shift (`<<`)**: The left operand’s value is moved toward left by the number of bits. 
     ```python
     print(a << 2)  # Output: 40 (101000 in binary)
 
-- **Right shift (`>>`)**: 
+- **Right shift (`>>`)**: The left operand’s value is moved toward right by the number of bits. 
     ```python
     print(a >> 2)  # Output: 2 (10 in binary)
 
