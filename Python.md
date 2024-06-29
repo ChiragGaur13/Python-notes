@@ -225,20 +225,20 @@ Operators are special symbols in Python that carry out arithmetic or logical com
    ```python
    print(x * y)  # Output: 50
 
-- **Division (`/`)**: 
+- **Division (`/`)**: Divide the first operand by the second.
    ```python
    print(x / y)  # Output: 2.0
 
 
-- **Modulus (`%`)**: 
+- **Modulus (`%`)**: Returns the remainder when the first operand is divided by the second.
    ```python
    print(x % y)  # Output: 0
 
-- **Exponentiation (`**`)**: 
+- **Exponentiation (`**`)**: Returns first raised to power second.
    ```python
    print(x ** y)  # Output: 100000
 
-- **Floor division (`//`)**: 
+- **Floor division (`//`)**: Divides the first operand by the second and return integer value.
    ```python
     print(x // y)  # Output: 2
 
