@@ -275,19 +275,19 @@ Comparison operators are used to compare values. They return either True or Fals
 
 ### c) Logical Operators
 
-Logical operators are used to combine conditional statements.
+Logical operators are used to combine conditional statements (either True or False).
 
-- **AND (`and`)**: 
+- **AND (`and`)**: Returns True if both the operands are true
     ```python
     a = True
     b = False
     print(a and b)  # Output: False 
 
-- **OR (`or`)**: 
+- **OR (`or`)**: Returns True if either of the operands is true
    ```python
    print(a or b)  # Output: True
 
-- **NOT (`not`)**: 
+- **NOT (`not`)**: Returns True if the operand is false
    ```python
    print(not a)  # Output: False
 
