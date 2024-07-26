@@ -57,21 +57,6 @@ x = 5
 y = "Hello, World!"
 ```
 
-### Variable Scope
-
-The scope of a variable refers to the places where you can access it. Variables in Python have global and local scope.
-
-- Global variables: Variables declared outside of any function or class. They can be accessed from anywhere within the program.
-- Local variables: Variables declared inside a function. They can only be accessed from within that function.
-
-```python
-global_var = "I am a global variable"
-
-def my_function():
-    local_var = "I am a local variable"
-    print(global_var)
-    print(local_var)
-```
 
 ## Data Types
 
