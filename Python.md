@@ -444,15 +444,6 @@ while i < 6:
 # 5
 ```
 
-### Loop control Statment
-
-- **Break Statment**:The break statement is used to exit the loop prematurely when a certain condition is met.
-
-- **Continue Statment**: The continue statement is used to skip the current iteration of the loop and continue with the next iteration.
-
-- **Pass Statment**: The pass statement is a null operation; it is used when a statement is required syntactically but you do not want any command or code to execute.
-
-
 # Functions
 
 Functions are reusable blocks of code that perform a specific task. Functions help in modularizing code and improving code readability.
