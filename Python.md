@@ -21,12 +21,10 @@
     c. [Logical Operators](#logical-operators)
    
     d. [Assignment Operators](#assignment-operators)
+      
+    e. [Membership Operators](#membership-operators)
    
-    e. [Bitwise Operators](#bitwise-operators)
-   
-    f. [Membership Operators](#membership-operators)
-   
-    g. [Identity Operators](#identity-operators)
+    f. [Identity Operators](#identity-operators)
    
 5. [Conditional Statements](#conditional-statements)
 6. [Loops](#loops)
@@ -319,37 +317,10 @@ Assignment operators are used to assign values to variables.
     x //= 2
     print(x)  # Output: 0.0
 
-### e) Bitwise Operators
 
-Bitwise operators act on operands as if they were strings of binary digits.
 
-- **Bitwise AND (`&`)**: Result bit 1, if both operand bits are 1; otherwise results bit 0.
-    ```python
-    a = 10  # 1010 in binary
-    b = 4   # 0100 in binary
-    print(a & b)  # Output: 0 (0000 in binary)
 
-- **Bitwise OR (`|`)**: Result bit 1, if any of the operand bit is 1; otherwise results bit 0.
-    ```python
-    print(a | b)  # Output: 14 (1110 in binary)
-
-- **Bitwise XOR (`^`)**: Result bit 1, if any of the operand bit is 1 but not both, otherwise results bit 0.
-    ```python
-    print(a ^ b)  # Output: 14 (1110 in binary)
-
-- **Bitwise NOT (`~`)**: Inverts individual bits.
-    ```python
-    print(~a)  # Output: -11 (Inverts all the bits)
-
-- **Left shift (`<<`)**: The left operand’s value is moved toward left by the number of bits. 
-    ```python
-    print(a << 2)  # Output: 40 (101000 in binary)
-
-- **Right shift (`>>`)**: The left operand’s value is moved toward right by the number of bits. 
-    ```python
-    print(a >> 2)  # Output: 2 (10 in binary)
-
-### f) Membership Operators
+### e) Membership Operators
 
 Membership operators are used to test if a sequence is present in an object.
 
@@ -362,7 +333,7 @@ Membership operators are used to test if a sequence is present in an object.
     ```python
     print("grape" not in fruits)  # Output: True
 
-### g) Identity Operators
+### f) Identity Operators
 
 Identity operators compare the memory locations of two objects.
 
